@@ -1,7 +1,4 @@
-"""Gemini-powered teacher story and lesson-plan assistant.
-Uses the same teacher-facing component arrangement as the fine-tuned Qwen Gradio UI.
-Set GEMINI_API_KEY in the hosting provider's environment; never hard-code it here.
-"""
+
 import os
 import re
 import tempfile
