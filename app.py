@@ -9,7 +9,7 @@ import gradio as gr
 API_KEY = os.getenv("GEMINI_API_KEY", "").strip()
 MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash").strip()
 DEMO = "Demo (offline templates - no AI model)"
-GEMINI = "Gemini model"
+GEMINI = "Fine-tuned model"
 SUBJECTS = ["Science", "Math", "EVS", "Social Science", "Values", "English"]
 
 # Keep Gradio's native component styling like the original fine-tuned app.
